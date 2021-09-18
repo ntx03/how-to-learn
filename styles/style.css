@@ -186,15 +186,20 @@ a {
 
 }
 
+.section-title_theme_dark {
+  margin-top: 90px;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  font-size: 18px; 
 }
 
 .table__theme_dark {
-  margin-bottom: 90px;
+  margin-bottom: 0px;
 }
 
 .feynman {
@@ -246,7 +251,6 @@ a {
 }
 
 .kaufman {
-  /*padding-bottom:90px;*/
   color: white;
   background-color:#000;
   overflow: hidden;
@@ -260,13 +264,6 @@ a {
 
 .theme_dark {
   color: white;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  line-height: 1.2;
-  font-size: 18px;
-  margin-top: 80px;
 }
 
 .triange {
@@ -302,7 +299,7 @@ a {
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
-  flex-direction:column ;
+  flex-direction:column;
   align-content: space-between;
   /*border: yellow 1px solid;*/
 }
@@ -327,7 +324,6 @@ a {
   height: 16px;
   background-size: contain;
   position: relative;
-
 }
 
 .footer__column {
