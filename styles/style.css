@@ -150,7 +150,7 @@ margin-bottom: 30px;
   line-height: 1.15;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;    
   /*border: tomato 1px solid;*/
 }
@@ -178,7 +178,7 @@ margin-bottom: 30px;
 .table__cell {
   width: 250px;
   margin-top: 60px;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .table__heading {
@@ -186,7 +186,7 @@ margin-bottom: 30px;
   margin-bottom: 20px;
   font-size: 24px;
   line-height: 1.15;
-  font-weight: bold;  
+  font-weight: bold;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
@@ -210,7 +210,7 @@ margin-bottom: 30px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  font-size: 18px; 
+  font-size: 18px;
 }
 
 .table__theme_dark {
@@ -234,7 +234,7 @@ margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  position: relative;  
+  position: relative;
 }
 
 .feyman__subtitle {
@@ -245,7 +245,7 @@ margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  position: relative;  
+  position: relative;
 }
 
 .feyman__link {
@@ -254,7 +254,7 @@ margin-bottom: 30px;
   line-height: 51px;
   font-size: 36px;
   position: absolute;
-  right: 48px;  
+  right: 48px;
 }
 
 .feyman__link::after {
@@ -288,7 +288,7 @@ margin-bottom: 30px;
   position: absolute;
   top: 0;
   right: -210px;
-  height: 877px; 
+  height: 877px;
   width: 877px;
   background-size: contain;
   background-image: url(../images/kaufman-triangle.svg);
@@ -313,13 +313,13 @@ margin-bottom: 30px;
   margin-bottom: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;  
+  justify-content: space-between;
   /*border: yellow 1px solid;*/ 
 }
 
 .footer__column_content_copyright {
-  flex-basis: 711px; 
-  display: flex; 
+  flex-basis: 711px;
+  display: flex;
   flex-direction:column;
   justify-content: space-between;
   /*border: yellow 1px solid;*/
@@ -336,7 +336,7 @@ margin-bottom: 30px;
 
 .footer__autor {
   margin-top: 0;
-  margin-bottom: 18px;  
+  margin-bottom: 18px;
   font-size: 18px;
   line-height: 25px;  
   /*border: tomato solid 1px;*/  
@@ -397,6 +397,5 @@ margin-bottom: 30px;
   list-style-type: none;
   text-decoration: none;
   padding-left: 0;
-  color:white;
   /*border: red 1px solid;*/  
 }
