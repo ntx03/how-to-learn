@@ -6,8 +6,14 @@
     position: absolute;
     right: 48px;
     text-decoration: none;
-  }
+}
   
-  .feyman__link::after {
+.feyman__link::after {
     content:'\2192';
-  }
+}
+
+.feyman__link:hover {
+    color: #2f80ed;
+    opacity: 0.5;
+    transition-duration: .5s;
+}

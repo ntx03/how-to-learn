@@ -1,4 +1,5 @@
-@import url(/pages/bloks/rotation/rotation.css);
+@import url("/pages/bloks/rotation/rotation.css");
+
 .header__square-pic {
     height: 568px;
     width: 568px;
@@ -7,4 +8,5 @@
     background-color:#2f80ed;
     position: absolute;
     animation: rotation 20s linear infinite;
-  }
+}
+

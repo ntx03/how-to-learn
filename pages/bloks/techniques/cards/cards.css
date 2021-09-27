@@ -1,12 +1,12 @@
 .cards {
-  max-width: 920px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  border: 1px black solid;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-  position: relative;
+    margin-left:auto;
+    margin-right:auto; 
+    width: 80%;
+    margin-top:60px;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 60px;
+    grid-column-gap: 100px;
+    text-align:center;
 }
