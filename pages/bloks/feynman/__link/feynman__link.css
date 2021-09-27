@@ -1,4 +1,4 @@
-.feyman__link {
+.feynman__link {
     color: #2f80ed;
     top: 50%;
     line-height: 51px;
@@ -8,11 +8,11 @@
     text-decoration: none;
 }
   
-.feyman__link::after {
+.feynman__link::after {
     content:'\2192';
 }
 
-.feyman__link:hover {
+.feynman__link:hover {
     color: #2f80ed;
     opacity: 0.5;
     transition-duration: .5s;
