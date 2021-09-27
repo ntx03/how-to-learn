@@ -10,6 +10,7 @@
 @import url(./bloks/digits/section-subtitle/section-subtitle.css);
 @import url(./bloks/digits/section-title/section-title.css);
 @import url(./bloks/digits/section-title/_theme_dark/section-title_theme_dark.css);
+@import url(./bloks/digits/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
 @import url(./bloks/digits/table/table.css);
 @import url(./bloks/digits/table/__cell/table__cell.css);
 @import url(./bloks/digits/table/__cell/_theme_dark/table__cell_theme_dark.css);
