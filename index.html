@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -43,29 +42,29 @@
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <div class="cards">
           <div class="cards__item">
-            <img class="cards__image" src="./images/cards-attention.png" alt="изображение_внимание">
+            <img class="cards__image" src="./images/cards-attention.png" alt="изображение внимание">
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
               мышление.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="./images/cards-recall.png" alt="изображение_вспоминайте_изученное">
+            <img class="cards__image" src="./images/cards-recall.png" alt="изображение вспоминайте изученное">
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="./images/cards-interliving.png" alt="изображение_интервилинг">
+            <img class="cards__image" src="./images/cards-interliving.png" alt="изображение интервилинг">
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="./images/cards-question.png" alt="изображение_вопросы">
+            <img class="cards__image" src="./images/cards-question.png" alt="изображение вопросы">
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
               волнует.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="./images/cards-competence.png" alt="изображение_иллюзия_компетентности">
+            <img class="cards__image" src="./images/cards-competence.png" alt="изображение иллюзия компетентности">
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
               владеете новой темой.</p>
@@ -77,10 +76,10 @@
         <p class="section-subtitle">Для тех,кто любит прокрастинировать</p>
         <div class="video__iframes">
           <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
           </div>
           <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
           </div>
         </div>
       </section>
@@ -212,12 +211,16 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас">
-          <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Н+1">
-          <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка">
-          <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка">
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a href="#" target='_blank'><img class="resources__logo" src="./images/logo/resources-arzamas.svg"
+                alt="Арзамас"></a></li>
+          <li><a href="#" target='_blank'><img class="resources__logo" src="./images/logo/resources-n1.svg"
+                alt="Н+1"></a></li>
+          <li><a href="#" target='_blank'><img class="resources__logo" src="./images/logo/resources-strelka.svg"
+                alt="Стрелка"></a></li>
+          <li><a href="#" target='_blank'><img class="resources__logo" src="./images/logo/resources-polka.svg"
+                alt="Полка"></a></li>
+        </ul>
       </section>
     </main>
     <footer class="footer">

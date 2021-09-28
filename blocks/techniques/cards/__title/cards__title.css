@@ -1,0 +1,10 @@
+.cards__title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 1.15;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    /*border: violet 1px solid;*/
+}

@@ -1,0 +1,13 @@
+.header__subtitle {  
+    margin: 0;
+    bottom: 30px;
+    left: 64px;
+    width: 388px;
+    font-size: 18px;
+    line-height: 25px;
+    position: absolute;
+    font-weight: normal;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    z-index: 2;
+    /*border: springgreen 1px solid;*/
+}
