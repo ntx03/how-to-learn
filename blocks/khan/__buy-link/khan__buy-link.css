@@ -10,7 +10,7 @@
 }
 
 .khan__buy-link::after {
-    content:'\2192';
+    content: '\2192';
 }
 
 .khan__buy-link:hover {

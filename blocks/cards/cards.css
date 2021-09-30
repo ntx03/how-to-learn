@@ -1,12 +1,12 @@
 .cards {
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 80%;
-    display:grid;
+    display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 100px;
-    text-align:center;
+    text-align: center;
     justify-content: center;
     /*border: indigo 1px solid;*/
 }

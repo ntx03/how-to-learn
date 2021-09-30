@@ -1,12 +1,13 @@
 .video__iframes {
     width: 65%;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items:center;
+    justify-items: center;
     justify-content: center;
-    margin-top: 50px;
+    bottom: -50px;
     column-gap: 20px;
     border: none;
 }

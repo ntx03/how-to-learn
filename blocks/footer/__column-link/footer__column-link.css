@@ -10,6 +10,7 @@
     /*border: red 1px solid;*/
     transition-duration: .5s;
 }
+
 .footer__column-link:hover {
     color: white;
     opacity: 0.5;

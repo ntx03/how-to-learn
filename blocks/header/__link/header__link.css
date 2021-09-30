@@ -3,9 +3,9 @@
     text-decoration: none;
     transition-duration: .5s;
 }
-  
+
 .header__link::after {
-    content:'\2192';
+    content: '\2192';
 }
 
 .header__link:hover {
