@@ -6,6 +6,7 @@
     position: absolute;
     right: 48px;
     text-decoration: none;
+    transition-duration: .5s;
 }
   
 .feynman__link::after {

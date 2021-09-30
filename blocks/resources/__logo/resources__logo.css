@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     /*border: brown 1px solid;*/
+    transition-duration: .5s;
 }
 
 .resources__logo:hover {

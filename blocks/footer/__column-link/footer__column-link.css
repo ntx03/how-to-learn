@@ -8,6 +8,7 @@
     text-decoration: none;
     padding-left: 0;
     /*border: red 1px solid;*/
+    transition-duration: .5s;
 }
 .footer__column-link:hover {
     color: white;
